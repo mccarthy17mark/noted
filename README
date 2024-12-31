@@ -1,0 +1,20 @@
+This is code for learning & play. Uses c++ as language, SDML as library which puts stuff on your screen.
+
+Acquire by using terminal to cd into a good directory (use ls to see what's where), then use the following command:
+git clone https://github.com/markomemos/circles.git
+
+Program currently compiled on mac using clang. Run program using ./build/apps/program
+
+When developing, use "git status" a lot.
+To make a branch, do "git checkout -b <new_branch_name>"
+When done making a small number of changes do "git add -A" followed by "git commit" and filling in a commit message.
+When done making a large number of changes (~1 per day) do "git push", just follow what it tells you about upstream origins because I never understand that.
+When updating local repo from remote repo do "git pull"
+
+Let Mark handle the pull requests and branch merging etc.
+
+To edit code, use "emacs src/main.cxx &" or use whatever your favourite text editor is. You can use an IDE, but good luck getting it set up!
+
+To compile, you will need to install SDML on mac (just google it and go to SDML webpage). You might also need clang (google it too).
+Then use "make" and see if there are compile errors. Use "make clean" if you want to remove bad objects created by a previous make.
+Don't touch makefile unless you know what you're doing!
